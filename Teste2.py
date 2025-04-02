@@ -99,8 +99,8 @@ col1, col2 = st.columns(2)  # Criando duas colunas para os botões
 
 with col1:
     if st.button("Me mostre mais"):
-        st.page_link("https://open.spotify.com/playlist/37i9dQZF1EJEm2SFxSxvQ3?si=f63051c6bdbe4194", label="Nossa playlist no Spotify.") 
-        st.success("Nesse link tem tudo o que você precisa saber")
+        st.page_link("https://open.spotify.com/playlist/37i9dQZF1EJEm2SFxSxvQ3?si=f63051c6bdbe4194", label="Link para a nossa playlist no Spotify.") 
+        st.success("Tem tudo o que você precisa saber")
         
 with col2:
     if st.button("Não quero saber, seu otário!"):
