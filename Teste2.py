@@ -111,7 +111,7 @@ with col2:
 st.markdown(
     """ 
     <p style="font-size:19px;">
-    E talvez nem todos os buquês do mundo fossem o suficiente.
+    E talvez nem todos os buquês do mundo sejam o suficiente.
     Mas sou feliz em como a gente se entende.
     </p>""",    
 unsafe_allow_html=True
