@@ -1,49 +1,88 @@
-# import streamlit as st
-
-# st.title("Hello Thais 👋")
-# st.markdown(
-#     """ 
-#     This is a playground for you to try Streamlit and have fun. 
-
-#     **There's :rainbow[so much] you can build!**
-    
-#     We prepared a few examples for you to get started. Just 
-#     click on the buttons above and discover what you can do 
-#     with Streamlit. 
-#     """
-# )
-
-# if st.button("Send balloons!"):
-#     st.balloons()
 
 import streamlit as st
 
-st.title("Manuella!! Boa noite, amor!! 👋")
+st.title("Dedicado à Gabriella Mussi Massoni:")
+
+st.markdown(
+    """
+    <style>
+    /* Fundo com corações */
+    body {
+        background-color: #ffdde1;
+        background-image: url('https://www.transparenttextures.com/patterns/hearts.png');
+        background-size: cover;
+    }
+
+    /* Fonte romântica */
+    h1, h2, h3 {
+        font-family: 'Cursive', sans-serif;
+        color: #d63384;
+        text-align: center;
+    }
+
+    /* Botões estilizados */
+    div.stButton > button {
+        background-color: #ff69b4;
+        color: white;
+        font-size: 20px;
+        padding: 12px 24px;
+        border-radius: 30px;
+        border: none;
+        transition: 0.3s;
+    }
+
+    div.stButton > button:hover {
+        background-color: #ff1493;
+        transform: scale(1.1);
+    }
+
+    /* Animação de corações flutuando */
+    @keyframes floating {
+        0% { transform: translateY(0px); }
+        50% { transform: translateY(-10px); }
+        100% { transform: translateY(0px); }
+    }
+
+    .hearts {
+        font-size: 50px;
+        display: block;
+        text-align: center;
+        animation: floating 2s ease-in-out infinite;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+st.markdown(
+    """
+    <iframe width="800" height="200" 
+    src="https://www.youtube.com/embed/nUSh1KuKU7c" 
+    frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    """,
+    unsafe_allow_html=True
+)
+
 
 st.markdown(
     """ 
     <p style="font-size:24px;">
-    Fiz esse site teste como um convite pra te chamar pra sair.
-    Para que os Americanos não te tirem mais do sério!  
-    Como você é uma mulher séria e quase uma diplomata, preciso de convites formais!
+    Reparei esses dias que nunca te fiz algo romântico, por mais que você mereça demais!
     </p>
     
-    <p style="font-size:20px;"><b>Ainda estamos em fase de teste</b></p>
+    <p style="font-size:20px;"><b>Esse site ta em fase de teste, peço perdão por qualquer coisa programada errada...
+    além de que, cartinhas físicas estão fora de moda.</b></p>
 
     <p style="font-size:24px;">
-    Existe uma ideia para que possamos nos ver, agora que moramos perto,  
-    para tomarmos uma cerveja (ou qualquer drink que exista) juntos.
+    A ideia do nome "Gabriella" vem do hebraico Gavri'el.  
+    No âmbito romântico, seria algo como "aquela que traz mensagens de amor".
     </p>
 
     <p style="font-size:24px;">
-    Estava pensando em criar um formulário mas vou fazer isso no chat mesmo.
-    </p>
-
-    <p style="font-size:24px;">
-    Preciso somente do seu aval!
+    Te olhar é sempre assim.
     </p>
     
-    <p style="font-size:20px;"><b>Os botões de resposta são interativos...</b></p>
+    <p style="font-size:20px;"><b>Nem todas as músicas são capazes de expressar o que eu quero dizer...</b></p>
     
       <style>
     div.stButton > button {
@@ -59,18 +98,22 @@ st.markdown(
 col1, col2 = st.columns(2)  # Criando duas colunas para os botões
 
 with col1:
-    if st.button("Sim, vida, vamos!!! 😊"):
-        st.image("https://i.pinimg.com/originals/6e/c4/27/6ec427a589efc2de3fdf3a47123fe5c5.gif", width=800)   
-        st.success("Que bom! Vamos continuar juntos 🚀")
-        st.balloons()
-
+    if st.button("Me mostre mais"):
+        st.page_link("https://open.spotify.com/playlist/37i9dQZF1EJEm2SFxSxvQ3?si=f63051c6bdbe4194", label="Nossa playlist no Spotify.") 
+        st.success("Nesse link tem tudo o que você precisa saber")
+        
 with col2:
-    if st.button("Não, seu otario!! 😢"):
+    if st.button("Não quero saber, seu otário!"):
         st.error("Poxa, que pena!")
         st.snow()  # Efeito de neve para variar um pouco
         st.image("https://pbs.twimg.com/media/FMFEuJVWYAYtq9E.jpg", width=800)  
 
-st.image ("https://i.gifer.com/CNJy.gif", width=300)
-
-  
-        
+st.markdown(
+    """ 
+    <p style="font-size:19px;">
+    E talvez nem todos os buquês do mundo fossem o suficiente.
+    Mas sou feliz em como a gente se entende.
+    </p>""",    
+unsafe_allow_html=True
+)
+st.image ("https://images.pexels.com/photos/250716/pexels-photo-250716.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", width=900)
