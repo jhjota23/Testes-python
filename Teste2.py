@@ -56,7 +56,7 @@ st.markdown(
 
 st.markdown(
     """
-    <iframe width="800" height="200" 
+    <iframe width="400" height="200" 
     src="https://www.youtube.com/embed/nUSh1KuKU7c" 
     frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     """,
