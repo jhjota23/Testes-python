@@ -65,21 +65,13 @@ st.markdown(
 
 
 st.markdown(
-    """ 
-    <p style="font-size:24px;">
-    Reparei esses dias que nunca te fiz algo romântico, por mais que você mereça demais!
-    </p>
-    
+    """     
     <p style="font-size:20px;"><b>Esse site ta em fase de teste, peço perdão por qualquer coisa programada errada...
     além de que, cartinhas físicas estão fora de moda.</b></p>
 
     <p style="font-size:24px;">
     A ideia do nome "Gabriella" vem do hebraico Gavri'el.  
     No âmbito romântico, seria algo como "aquela que traz mensagens de amor".
-    </p>
-
-    <p style="font-size:24px;">
-    Te olhar é sempre assim.
     </p>
     
     <p style="font-size:20px;"><b>Nem todas as músicas são capazes de expressar o que eu quero dizer...</b></p>
@@ -108,12 +100,12 @@ with col2:
         st.snow()  # Efeito de neve para variar um pouco
         st.image("https://pbs.twimg.com/media/FMFEuJVWYAYtq9E.jpg", width=800)  
 
-st.markdown(
-    """ 
-    <p style="font-size:19px;">
-    E talvez nem todos os buquês do mundo sejam o suficiente.
-    Mas sou feliz em como a gente se entende.
-    </p>""",    
-unsafe_allow_html=True
-)
+# st.markdown(
+#     """ 
+#     <p style="font-size:19px;">
+#     E talvez nem todos os buquês do mundo sejam o suficiente.
+#     Mas sou feliz em como a gente se entende.
+#     </p>""",    
+# unsafe_allow_html=True
+# )
 st.image ("https://images.pexels.com/photos/250716/pexels-photo-250716.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", width=900)
