@@ -63,10 +63,9 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-
 st.markdown(
     """     
-    <p style="font-size:20px;"><b>Esse site ta em fase de teste, peço perdão por qualquer coisa programada errada...
+    <p style="font-size:20px;"><b>Este site ta em fase de teste, peço perdão por qualquer coisa programada errada...
     além de que, cartinhas físicas estão fora de moda.</b></p>
 
     <p style="font-size:24px;">
